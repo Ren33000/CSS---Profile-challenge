@@ -17,7 +17,7 @@ h3 {
 
 /*BODY*/
 body {
-  background-color: #f8f5f1 ;
+  background-color: #f8f5f1;
 }
 
 .container {
@@ -61,8 +61,11 @@ p {
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
+    text-align: center;
     text-decoration: none;
     margin-top: 16px;
+    display: inline-block;
+
 }
 .button-brown:hover {
   background-color: #e7d4b5;
@@ -73,7 +76,8 @@ p {
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 30px 30px;
+  /*margin: 20px 20px;*/
   color: #a0937d ;
 }
 
