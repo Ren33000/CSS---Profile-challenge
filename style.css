@@ -71,15 +71,24 @@ p {
   background-color: #e7d4b5;
   color: #766161 ;
   text-decoration: none;
-
 }
 
 .list-inline {
   list-style: none;
-  padding-left: 30px 30px;
-  /*margin: 20px 20px;*/
+  /*padding-left: 30px 30px;*/
   color: #a0937d ;
+  padding:  0;
 }
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/*li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}*/
 
 .fab {
     color: #a0937d;
